@@ -1,0 +1,13 @@
+# progress logs written by delegated agents
+progress/
+*.log
+# python
+__pycache__/
+*.pyc
+# media produced by decks and walkthroughs
+*.mp4
+*.webm
+*.png
+*.mp3
+*.wav
+node_modules/

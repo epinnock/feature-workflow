@@ -1,0 +1,16 @@
+{
+  "name": "feature-workflow",
+  "owner": {
+    "name": "epinnock",
+    "url": "https://github.com/epinnock"
+  },
+  "plugins": [
+    {
+      "name": "feature-workflow",
+      "source": ".",
+      "description": "Seven-stage feature pipeline with two founder gates, packaged as a Claude Code skill",
+      "version": "0.1.0"
+    }
+  ],
+  "description": "Figma proposal to production watch in seven stages with two founder gates, packaged as a Claude Code skill."
+}

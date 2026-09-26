@@ -1,0 +1,11 @@
+{
+  "name": "feature-workflow",
+  "displayName": "Feature Workflow",
+  "description": "Build and ship a product feature in seven stages with two founder gates: Figma proposal, narrated deck, design approval, development, security review, UAT on stage, ship approval, production promotion and a 48-hour watch. Every stage produces something a non-coding founder can judge.",
+  "version": "0.1.0",
+  "author": { "name": "Ejiro Pinnock", "url": "https://github.com/epinnock" },
+  "homepage": "https://github.com/epinnock/feature-workflow",
+  "repository": "https://github.com/epinnock/feature-workflow",
+  "license": "MIT",
+  "keywords": ["workflow", "feature", "figma", "uat", "security-review", "release", "founder"]
+}
