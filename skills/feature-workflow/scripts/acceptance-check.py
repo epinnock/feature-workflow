@@ -107,11 +107,11 @@ def result_of(text):
 
 def ids_in_cell(cell, known):
     c = clean(cell)
-    if not re.match(r"^#?[A-Z]?\d", c):
+    if not re.match(r"^#?[A-Z]{0,3}-?\d", c):
         return [], ""
     qual = " ".join(re.findall(r"\(([^)]*)\)", c))
     base = re.sub(r"\([^)]*\)", "", c)
-    return [x for x in re.findall(r"[A-Z]?\d+[a-z]?", base) if x in known], qual
+    return [x for x in re.findall(r"[A-Z]{0,3}-?\d+[a-z]?", base) if x in known], qual
 
 
 def parse_uat(path, known):
